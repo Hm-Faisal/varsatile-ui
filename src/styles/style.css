@@ -76,8 +76,8 @@ p {
 header {
   background: linear-gradient(
     180deg,
-    rgb(17, 17, 17),
-    rgba(119, 119, 119, .9) 100%
+    rgb(17,17,17),
+    rgba(28,28,28) 100% 
   );
 }
 header nav {
@@ -90,10 +90,6 @@ header nav h1 {
   color: rgb(230, 83, 60);
   font-size: 2.25rem;
   font-weight: 800;
-}
-header h2 .cursive {
-	font-family: "Playwrite HU", cursive;
-	font-weight: 200;
 }
 header nav ul {
   box-sizing: border-box;
@@ -110,14 +106,77 @@ header nav ul li a {
 header nav ul li a.nav-item {
   padding: 8px 40px;
 }
-/* Banner Area Style  */
-#Banner_Area {
+/* Header Area styles End  */
+
+main {
+	margin-top: -50px;
+}
+
+/* Banner Area Style  Start */
+#Banner_Area {  
+  background: linear-gradient(
+    180deg,
+    rgb(29,29,29),
+    rgb(5,5,5) 100% 
+  );
+}
+#Banner_Area .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 50px auto;
 }
+#Banner_Area h2 .cursive {
+	font-family: "Playwrite HU", cursive;
+	font-weight: 200;
+}
+#Banner_Area .image {
+  position: relative;
+	margin: 70px 20px;
+}
+#Banner_Area .image {
+	position: relative;
+	margin: 70px 0 0 30px;
+}
+#Banner_Area .image .badge_heading {
+	font-size: 2.5rem;
+	color: rgb(255,255,255);
+	font-weight: 900;
+  display: block;
+}
+#Banner_Area .image .badge_text {
+	color: rgba(255,255,255,.65);
+	font-size: 0.813rem;
+	font-weight: 400;
+	display: block;
+}
+#Banner_Area .image .feature_badge_1 {
+	position: absolute;
+	right: -30px;
+	top: 135px;
+	background: #393939;
+	padding: 15px;
+	border-radius: 15px;
+}
+#Banner_Area .image .feature_badge_2 {
+	position: absolute;
+	bottom: 30px;
+	background: #393939;
+	padding: 20px;
+	border-radius: 15px;
+}
+#Banner_Area .image .feature_badge_2 .tutorial {
+	display: flex;
+	align-items: center;
+}
+#Banner_Area .image .feature_badge_2 .tutorial .icon {
+	padding: 16px 20px;
+	border-radius: 50%;
+	background: #E6533C;
+	margin-right: 10px;
+  color: #FFFFFF;
+}
+/* Banner Area styles End  */
 
-/* Header Area styles Start  */
 /* styles Start  */
 /* styles End  */
