@@ -54,6 +54,9 @@ p {
   letter-spacing: 0.5px;
   margin-top: 30px;
 }
+p.primary {
+  font-size: 0.875rem;
+}
 .btn {
   color: rgb(255, 255, 255);
   font-size: 1.125rem;
@@ -74,17 +77,12 @@ p {
 
 /* Header Area styles End  */
 header {
-  background: linear-gradient(
-    180deg,
-    rgb(17,17,17),
-    rgba(28,28,28) 100% 
-  );
+  background: linear-gradient(180deg, rgb(17, 17, 17), rgba(28, 28, 28) 100%);
 }
 header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 header nav h1 {
   color: rgb(230, 83, 60);
@@ -108,17 +106,10 @@ header nav ul li a.nav-item {
 }
 /* Header Area styles End  */
 
-main {
-	margin-top: -50px;
-}
-
 /* Banner Area Style  Start */
-#Banner_Area {  
-  background: linear-gradient(
-    180deg,
-    rgb(29,29,29),
-    rgb(5,5,5) 100% 
-  );
+#Banner_Area {
+  background: linear-gradient(180deg, rgb(29, 29, 29), rgb(5, 5, 5) 100%);
+  margin-top: -50px;
 }
 #Banner_Area .container {
   display: flex;
@@ -127,56 +118,80 @@ main {
   margin: 50px auto;
 }
 #Banner_Area h2 .cursive {
-	font-family: "Playwrite HU", cursive;
-	font-weight: 200;
+  font-family: "Playwrite HU", cursive;
+  font-weight: 200;
 }
 #Banner_Area .image {
   position: relative;
-	margin: 70px 20px;
+  margin: 70px 20px;
 }
 #Banner_Area .image {
-	position: relative;
-	margin: 70px 0 0 30px;
+  position: relative;
+  margin: 70px 0 0 30px;
 }
 #Banner_Area .image .badge_heading {
-	font-size: 2.5rem;
-	color: rgb(255,255,255);
-	font-weight: 900;
+  font-size: 2.5rem;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
   display: block;
 }
 #Banner_Area .image .badge_text {
-	color: rgba(255,255,255,.65);
-	font-size: 0.813rem;
-	font-weight: 400;
-	display: block;
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 0.813rem;
+  font-weight: 400;
+  display: block;
 }
 #Banner_Area .image .feature_badge_1 {
-	position: absolute;
-	right: -30px;
-	top: 135px;
-	background: #393939;
-	padding: 15px;
-	border-radius: 15px;
+  position: absolute;
+  right: -30px;
+  top: 135px;
+  background: #393939;
+  padding: 15px;
+  border-radius: 15px;
 }
 #Banner_Area .image .feature_badge_2 {
-	position: absolute;
-	bottom: 30px;
-	background: #393939;
-	padding: 20px;
-	border-radius: 15px;
+  position: absolute;
+  bottom: 30px;
+  background: #393939;
+  padding: 20px;
+  border-radius: 15px;
 }
 #Banner_Area .image .feature_badge_2 .tutorial {
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 }
 #Banner_Area .image .feature_badge_2 .tutorial .icon {
-	padding: 16px 20px;
-	border-radius: 50%;
-	background: #E6533C;
-	margin-right: 10px;
-  color: #FFFFFF;
+  padding: 16px 20px;
+  border-radius: 50%;
+  background: #e6533c;
+  margin-right: 10px;
+  color: #ffffff;
 }
 /* Banner Area styles End  */
 
+/* Habit Area styles Start  */
+#Habit_Area {
+	background: #000;
+	display: flex;
+	flex-direction: column;
+	margin-top: -50px;
+	text-align: center;
+  padding: 50px 0;
+}
+#Habit_Area .item {
+	display: flex;
+	margin-top: 4rem;
+}
+#Habit_Area .item img {
+	border-radius: 50%;
+}
+#Habit_Area p.subtitle {
+	font-size: 0.875rem;
+	margin-top: .5rem;
+	line-height: 1.2rem;
+}
+/* Habit Area styles End  */
+/* styles Start  */
+/* styles End  */
 /* styles Start  */
 /* styles End  */
