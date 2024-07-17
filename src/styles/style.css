@@ -83,17 +83,19 @@ header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 30px;
 }
 header nav h1 {
   color: rgb(230, 83, 60);
   font-size: 2.25rem;
   font-weight: 800;
+  margin: 0;
 }
 header nav ul {
-  box-sizing: border-box;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 39px;
-  padding: 4px;
+	box-sizing: border-box;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	border-radius: 39px;
+	padding: 4px 0;
 }
 header nav ul li {
   display: inline-block;
