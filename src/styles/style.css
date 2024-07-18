@@ -203,6 +203,9 @@ main {
   display: flex;
   margin-top: 4rem;
 }
+#Habit_Area .item .child_item{
+  flex: 1;
+}
 #Habit_Area .item img {
   border-radius: 50%;
 }
