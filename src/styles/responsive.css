@@ -22,6 +22,9 @@
   #Banner_Area .content {
     padding: 20px;
   }
+  #Banner_Area .image .feature_badge_1 {
+    right: 0px;
+}
   #Habit_Area .item {
     flex-direction: column;
   }
@@ -40,6 +43,12 @@
   #Run_Easily .container .content {
     margin-right: 0;
   }
+  #Run_Easily .container .content .btn-primary {
+    border: none;
+    background: rgb(230, 83, 60);
+    margin-right: 15px;
+    width: 100%;
+}
   #Run_Easily .container .image {
     width: 100%;
     height: fit-content;
@@ -69,6 +78,12 @@
   #Teem_Area .container .gallery {
     grid-template-columns: 1fr;
   }
+  #customer_review .container p {
+    padding: 20px;
+  }
+  #customer_review .card {
+    flex-direction: column;
+}
   #important_link .container {
     grid-template-columns: 1fr;
     padding: 20px;

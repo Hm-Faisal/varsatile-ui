@@ -167,14 +167,14 @@ main {
   position: absolute;
   right: -30px;
   top: 135px;
-  background: #393939;
+  background: rgb(57 57 57 / 50%);
   padding: 15px;
   border-radius: 15px;
 }
 #Banner_Area .image .feature_badge_2 {
   position: absolute;
   bottom: 30px;
-  background: #393939;
+  background: rgb(57 56 57 / 50%);
   padding: 20px;
   border-radius: 15px;
 }
@@ -238,8 +238,6 @@ main {
 /* Run Easily Area styles End  */
 
 /* BMI Calculator styles Start  */
-#BMI_Calculator {
-}
 #BMI_Calculator .calculator_heading_desktop {
   width: 50%;
   text-align: left;
@@ -363,6 +361,43 @@ color: rgba(255, 255, 255, 0.5);
 }
 /* Teem Area styles End  */
 
+/* Customer Review Area Style Start  */
+#customer_review {
+  text-align: center;
+  color: #fff;
+}
+#customer_review .container{
+  display: flex;
+  flex-direction: column;
+}
+#customer_review .card {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin: 40px auto;
+}
+#customer_review .card img {
+  width: 100px;
+	border-radius: 50%;
+	height: 100px;
+}
+#customer_review .card p {
+	margin-top: 0px;
+}
+#customer_review .card .card_item {
+  background: #393939;
+  display: flex;
+	justify-content: space-between;
+	align-items: center;
+  border-radius: 8px;
+}
+#customer_review .card .card_item .see_more {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/* Customer Review Area Style End  */
+
 /* Footer Area styles Start  */
 #important_link {
   background: #1A1A1A;
@@ -371,6 +406,11 @@ color: rgba(255, 255, 255, 0.5);
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   margin: 30px auto;
+  text-align: left;
+}
+#important_link .container .content h1 {
+	color: #E6533C;
+	font-size: 4rem;
 }
 #important_link .container .content p {
 margin: 0;
