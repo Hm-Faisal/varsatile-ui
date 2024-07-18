@@ -91,6 +91,11 @@ header nav h1 {
   font-weight: 800;
   margin: 0;
 }
+header nav .icon {
+  color: rgb(255,255,255);
+  display: none;
+  margin: 0;
+}
 header nav ul {
   box-sizing: border-box;
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -287,7 +292,7 @@ main {
     "item1 item2"
     "item3 item4"
     "item5 item5"
-    "item6 i";
+    "item6 item6";
 }
 #BMI_Calculator .container .grid_item {
   font-size: 1rem;
@@ -316,5 +321,77 @@ main {
   grid-area: item6;
 }
 
-/* styles Start  */
-/* styles End  */
+/* Teem Area styles Start  */
+#Teem_Area {
+  text-align: center;
+}
+#Teem_Area .container {
+  display: flex;
+  flex-direction: column;
+}
+#Teem_Area .container h3 {
+line-height: 2rem;
+}
+#Teem_Area .container .gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 50px auto;
+  gap: 30px;
+  padding: 20px;
+  background: #393939;
+  border-radius: 8px;
+}
+#Teem_Area .container .gallery .images{
+  border-radius: 8px;
+  position: relative;
+}
+#Teem_Area .container .gallery .images img {
+	width: 300px;
+	height: 250px;
+  border-radius: 8px;
+}
+#Teem_Area .container .gallery .images .caption {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
+#Teem_Area .container .gallery .images .caption h6 {
+line-height: 2rem;
+}
+#Teem_Area .container .gallery .images .caption span {
+color: rgba(255, 255, 255, 0.5);
+}
+/* Teem Area styles End  */
+
+/* Footer Area styles Start  */
+#important_link {
+  background: #1A1A1A;
+}
+#important_link .container{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  margin: 30px auto;
+}
+#important_link .container .content p {
+margin: 0;
+}
+#important_link .container .get_start {
+margin-bottom: 40px;
+}
+#important_link .container .get_start a {
+	text-decoration: none;
+	display: block;
+	margin-bottom: 5px;
+	color: rgba(255,255,255,.5);
+}
+hr {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1040px;
+}
+footer {
+  background: #1A1A1A;
+  padding: 20px ;
+  text-align: center;
+}
+/* Footer Area styles End  */

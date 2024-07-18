@@ -1,0 +1,79 @@
+@media screen and (max-width: 425px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: rgb(255, 255, 255);
+    line-height: 5rem;
+    margin-top: 10px;
+  }
+  header nav .icon {
+    display: block;
+    padding: 0 30px;
+  }
+  header nav ul {
+    display: none;
+  }
+  #Banner_Area .container {
+    flex-direction: column;
+  }
+  #Banner_Area .content {
+    padding: 20px;
+  }
+  #Habit_Area .item {
+    flex-direction: column;
+  }
+  #Habit_Area .item h6 {
+    line-height: 1rem;
+  }
+  #Habit_Area p.subtitle {
+    margin: 0.5rem auto;
+  }
+  #Run_Easily .container {
+    padding: 15px;
+    flex-direction: column;
+    gap: 30px;
+    width: 90%;
+  }
+  #Run_Easily .container .content {
+    margin-right: 0;
+  }
+  #Run_Easily .container .image {
+    width: 100%;
+    height: fit-content;
+  }
+  #BMI_Calculator .calculator_heading_desktop {
+    width: 90%;
+  }
+  #BMI_Calculator .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  #BMI_Calculator .container .input_your_data {
+    padding: 20px;
+  }
+  #BMI_Calculator .container form {
+    width: 100%;
+    margin: 30px auto;
+  }
+  #BMI_Calculator .container .grid_item {
+    font-size: .875rem;
+    padding: .5rem;
+  }
+  #Teem_Area p {
+    padding: 20px;
+  }
+  #Teem_Area .container .gallery {
+    grid-template-columns: 1fr;
+  }
+  #important_link .container {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+  #important_link .container .content p {
+    padding-right: 20px;
+  }
+}
