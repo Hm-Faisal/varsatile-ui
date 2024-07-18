@@ -10,6 +10,7 @@ body {
   max-width: 1440px;
   width: 100%;
   font-family: Inter;
+  line-height: 1.5rem;
 }
 .container {
   max-width: 1040px;
@@ -23,7 +24,7 @@ h4,
 h5,
 h6 {
   color: rgb(255, 255, 255);
-  line-height: 120%;
+  line-height: 7rem;
   margin-top: 30px;
 }
 h2 {
@@ -50,7 +51,6 @@ p {
   color: rgba(255, 255, 255, 0.5);
   font-size: 1rem;
   font-weight: 400;
-  line-height: 1.5rem;
   letter-spacing: 0.5px;
   margin-top: 30px;
 }
@@ -92,10 +92,10 @@ header nav h1 {
   margin: 0;
 }
 header nav ul {
-	box-sizing: border-box;
-	border: 1px solid rgba(255, 255, 255, 0.1);
-	border-radius: 39px;
-	padding: 4px 0;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+  padding: 4px 0;
 }
 header nav ul li {
   display: inline-block;
@@ -120,7 +120,9 @@ header nav ul li a.active {
   margin-right: 15px;
 }
 /* Header Area styles End  */
-
+main {
+  background: #000;
+}
 /* Banner Area Style  Start */
 #Banner_Area {
   background: linear-gradient(180deg, rgb(29, 29, 29), rgb(5, 5, 5) 100%);
@@ -186,27 +188,133 @@ header nav ul li a.active {
 
 /* Habit Area styles Start  */
 #Habit_Area {
-	background: #000;
-	display: flex;
-	flex-direction: column;
-	margin-top: -50px;
-	text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: -50px;
+  text-align: center;
   padding: 50px 0;
 }
 #Habit_Area .item {
-	display: flex;
-	margin-top: 4rem;
+  display: flex;
+  margin-top: 4rem;
 }
 #Habit_Area .item img {
-	border-radius: 50%;
+  border-radius: 50%;
 }
 #Habit_Area p.subtitle {
-	font-size: 0.875rem;
-	margin-top: .5rem;
-	line-height: 1.2rem;
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+  line-height: 1.2rem;
 }
 /* Habit Area styles End  */
-/* styles Start  */
-/* styles End  */
+/* Run Easily Area styles Start  */
+#Run_Easily {
+  padding: 60px 0;
+}
+#Run_Easily .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(34, 34, 34);
+  border-radius: 8px;
+  padding: 40px 50px;
+}
+#Run_Easily .container .content {
+  margin-right: 100px;
+}
+#Run_Easily .container .image {
+  width: 370px;
+  height: fit-content;
+}
+#Run_Easily .container .image img {
+  width: inherit;
+  border-radius: 8px;
+}
+/* Run Easily Area styles End  */
+
+/* BMI Calculator styles Start  */
+#BMI_Calculator {
+}
+#BMI_Calculator .calculator_heading_desktop {
+  width: 50%;
+  text-align: left;
+  margin: 40px auto;
+}
+#BMI_Calculator .calculator_heading_desktop h3 {
+  line-height: 3rem;
+}
+#BMI_Calculator .main_container {
+  background: #222222;
+}
+#BMI_Calculator .container {
+	display: flex;
+	align-items: start;
+}
+#BMI_Calculator .container .chart {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+#BMI_Calculator .container .chart table,
+#BMI_Calculator .container .chart th,
+#BMI_Calculator .container .chart td {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-collapse: collapse;
+  padding: 1rem;
+}
+#BMI_Calculator .container .chart th {
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: 500;
+}
+#BMI_Calculator .container .chart td {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: .875rem;
+  font-weight: 400;
+}
+#BMI_Calculator .container .input_your_data {
+  flex: 1;
+}
+#BMI_Calculator .container form {
+  display: grid;
+  width: 100%;
+  gap: 10px;
+  margin: 30px 0;
+  grid-template-areas:
+    "item1 item2"
+    "item3 item4"
+    "item5 item5"
+    "item6 i";
+}
+#BMI_Calculator .container .grid_item {
+  font-size: 1rem;
+  padding: 1rem;
+  color: rgba(255, 255, 255, 0.5);
+  background: #393939;
+  border-radius: 8px;
+  border: none;
+}
+.grid_item1 {
+  grid-area: item1;
+}
+.grid_item2 {
+  grid-area: item2;
+}
+.grid_item3 {
+  grid-area: item3;
+}
+.grid_item4 {
+  grid-area: item4;
+}
+.grid_item5 {
+  grid-area: item5;
+}
+.grid_item6 {
+  grid-area: item6;
+}
+
 /* styles Start  */
 /* styles End  */
