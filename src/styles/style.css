@@ -374,8 +374,8 @@ color: rgba(255, 255, 255, 0.5);
   flex-direction: column;
 }
 #customer_review .card {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 40px;
   margin: 40px auto;
 }
@@ -389,15 +389,38 @@ color: rgba(255, 255, 255, 0.5);
 }
 #customer_review .card .card_item {
   background: #393939;
+  border-radius: .5rem;
+  padding: 1rem;
+}
+#customer_review .card .card_item .rating{
+  color: yellow;
+}
+#customer_review .card .card_item .rating .name{
+  color: #ffffff;
+}
+#customer_review .card .card_item .item_profile {
+  background: #393939;
   display: flex;
-	justify-content: space-between;
-	align-items: center;
+  justify-content: start;
+  align-items: center;
   border-radius: 8px;
+  gap: 2rem;
+  margin-bottom: 2rem;
 }
 #customer_review .card .card_item .see_more {
 	color: #ffffff;
 	text-decoration: none;
 }
+#customer_review .more_review {
+	margin-bottom: 2rem;
+}
+#customer_review .more_review a{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+
 
 /* Customer Review Area Style End  */
 
